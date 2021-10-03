@@ -60,14 +60,22 @@
 			children = (
 				B29E1E372708FA0200B37D4C /* AppDelegate.swift */,
 				B29E1E392708FA0200B37D4C /* SceneDelegate.swift */,
-				B29E1E4C2708FF1D00B37D4C /* AdditionViewController.swift */,
-				B29E1E4E2708FF3300B37D4C /* SubtractionViewController.swift */,
+				B29E1E50270A6A8100B37D4C /* Controller */,
 				B29E1E3D2708FA0200B37D4C /* Main.storyboard */,
 				B29E1E402708FA0500B37D4C /* Assets.xcassets */,
 				B29E1E422708FA0500B37D4C /* LaunchScreen.storyboard */,
 				B29E1E452708FA0500B37D4C /* Info.plist */,
 			);
 			path = muranakaKadai7;
+			sourceTree = "<group>";
+		};
+		B29E1E50270A6A8100B37D4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B29E1E4C2708FF1D00B37D4C /* AdditionViewController.swift */,
+				B29E1E4E2708FF3300B37D4C /* SubtractionViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
