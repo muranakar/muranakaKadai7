@@ -47,6 +47,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="f1l-4I-7MX"/>
                         <color key="backgroundColor" red="0.91753658190150222" green="1" blue="0.90453354372727091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="knu-Du-Tgd" appends="YES" id="WHh-6M-2BT"/>
+                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="subtraction" image="minus" catalog="system" selectedImage="minus" id="zV7-5o-evF"/>
                     <connections>
@@ -56,6 +60,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UNw-KI-7b2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="knu-Du-Tgd">
+                    <connections>
+                        <action selector="didTap:" destination="y9d-zl-LJA" id="yLm-Kh-xPC"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="318.84057971014494" y="365.625"/>
         </scene>
@@ -98,6 +107,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CDh-Xk-ROf"/>
                         <color key="backgroundColor" red="1" green="0.83491576015477187" blue="0.89917076431205334" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="omy-C8-peR" appends="YES" id="MCM-h7-Gb0"/>
+                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="addition" image="plus" catalog="system" selectedImage="plus" id="7cl-bG-lYf"/>
                     <connections>
@@ -107,6 +120,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NaS-FY-1PK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="omy-C8-peR">
+                    <connections>
+                        <action selector="didTap:" destination="7pK-Nm-5NU" id="54B-X5-g5U"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="320.28985507246381" y="-289.28571428571428"/>
         </scene>
@@ -117,6 +135,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bqg-wr-ORx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="selectedImageTintColor" systemColor="linkColor"/>
                     </tabBar>
                     <connections>
@@ -134,6 +153,9 @@
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
